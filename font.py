@@ -7,21 +7,5 @@ class FontLoader:
     def loadFont(self, directory):
         font = Font("fancy")
 
-        font.letters['G'] = r''
-'  ___ '
-' / __)'
-'( (_ \\'
-' \___/'
-
-		font.letters['I'] = r''
-'  __ ' 
-' (  )'
-'  )( '
-' (__)' 
-
-        font.letters['T'] = r''
-' ____ '
-'(_  _)'
-'  )(  '
-' (__) '
+        font.letters['G'] = r" ____ \n(_  _)\n  )(  \n (__) \n"
         return font
