@@ -6,6 +6,22 @@ class Font:
 class FontLoader:
     def loadFont(self, directory):
         font = Font("fancy")
-
-        font.letters['G'] = r" ____ \n(_  _)\n  )(  \n (__) \n"
+        font.letters['G'] = r'''
+  ___ 
+ / __)
+( (_ \\
+ \\___/
+'''
+        font.letters['T'] = r'''
+ ____ 
+(_  _)
+  )(  
+ (__) 
+'''
+        font.letters['I'] = r'''
+  __  
+ (  ) 
+  )(  
+ (__) 
+'''
         return font
