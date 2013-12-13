@@ -16,8 +16,8 @@ class TextDrawer:
     def draw(self, text):
         pass
         
-t = getText()
-f = FontLoader().loadFont('fancyFont/')
+text = getText()
+font = FontLoader().loadFont('fancyFont/')
 d = TextDrawer()
-d.setFont(f)
-d.draw(t)
+d.setFont(font)
+d.draw(text)
